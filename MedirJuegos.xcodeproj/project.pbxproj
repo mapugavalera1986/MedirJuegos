@@ -10,9 +10,11 @@
 		F71E64542ABCE0BE0049C4C0 /* MedirJuegosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64532ABCE0BE0049C4C0 /* MedirJuegosApp.swift */; };
 		F71E64582ABCE0BF0049C4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71E64572ABCE0BF0049C4C0 /* Assets.xcassets */; };
 		F71E645B2ABCE0BF0049C4C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71E645A2ABCE0BF0049C4C0 /* Preview Assets.xcassets */; };
-		F71E64632ABCE1810049C4C0 /* VerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64622ABCE1810049C4C0 /* VerA.swift */; };
 		F71E64652ABCE18A0049C4C0 /* VerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64642ABCE18A0049C4C0 /* VerB.swift */; };
 		F71E64672ABCE1E80049C4C0 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */; };
+		F7D01F262B02B04B008720A7 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D01F252B02B04B008720A7 /* InicioView.swift */; };
+		F7D01F282B02B410008720A7 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D01F272B02B410008720A7 /* StatsView.swift */; };
+		F7D01F2A2B02B9D3008720A7 /* AjustesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D01F292B02B9D3008720A7 /* AjustesView.swift */; };
 		F7F7467A2B028FD300D5FA43 /* JuegoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F746792B028FD300D5FA43 /* JuegoCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,9 +23,11 @@
 		F71E64532ABCE0BE0049C4C0 /* MedirJuegosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedirJuegosApp.swift; sourceTree = "<group>"; };
 		F71E64572ABCE0BF0049C4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71E645A2ABCE0BF0049C4C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F71E64622ABCE1810049C4C0 /* VerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerA.swift; sourceTree = "<group>"; };
 		F71E64642ABCE18A0049C4C0 /* VerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerB.swift; sourceTree = "<group>"; };
 		F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		F7D01F252B02B04B008720A7 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
+		F7D01F272B02B410008720A7 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		F7D01F292B02B9D3008720A7 /* AjustesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesView.swift; sourceTree = "<group>"; };
 		F7F746792B028FD300D5FA43 /* JuegoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				F7F746782B028FC400D5FA43 /* Components */,
-				F71E64622ABCE1810049C4C0 /* VerA.swift */,
-				F71E64642ABCE18A0049C4C0 /* VerB.swift */,
+				F7D01F252B02B04B008720A7 /* InicioView.swift */,
 				F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */,
+				F7D01F272B02B410008720A7 /* StatsView.swift */,
+				F71E64642ABCE18A0049C4C0 /* VerB.swift */,
+				F7D01F292B02B9D3008720A7 /* AjustesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,10 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71E64672ABCE1E80049C4C0 /* PrincipalView.swift in Sources */,
+				F7D01F262B02B04B008720A7 /* InicioView.swift in Sources */,
+				F7D01F282B02B410008720A7 /* StatsView.swift in Sources */,
 				F71E64652ABCE18A0049C4C0 /* VerB.swift in Sources */,
 				F7F7467A2B028FD300D5FA43 /* JuegoCard.swift in Sources */,
-				F71E64632ABCE1810049C4C0 /* VerA.swift in Sources */,
 				F71E64542ABCE0BE0049C4C0 /* MedirJuegosApp.swift in Sources */,
+				F7D01F2A2B02B9D3008720A7 /* AjustesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

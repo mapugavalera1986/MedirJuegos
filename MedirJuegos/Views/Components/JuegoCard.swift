@@ -14,25 +14,27 @@ struct JuegoCard: View {
     var tiempo: String
     
     var body: some View {
-        VStack{//Empieza la tarjeta
-            Text(fecha)
-                .font(.system(size: 20))
-                .foregroundStyle(.white)
-                .padding(2)
-            Text(juego)
-                .font(.system(size: 24, weight: .bold))
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-                .padding(4)
-            Text(tiempo)
-                .font(.system(size: 20))
-                .foregroundStyle(.white)
-                .padding(2)
-        }//Finaliza la tarjeta
-        .frame(width: 320, height: 160)
-        .background(.indigo)
+        VStack{
+            VStack{//Empieza la tarjeta
+                Text(fecha)
+                    .font(.system(size: 20))
+                    .foregroundStyle(.white)
+                    .padding(2)
+                Text(juego)
+                    .font(.system(size: 24, weight: .bold))
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.white)
+                    .padding(4)
+                Text(tiempo)
+                    .font(.system(size: 20))
+                    .foregroundStyle(.white)
+                    .padding(2)
+            }//Finaliza la tarjeta
+            .frame(width: 320, height: 140)
+            .background(.indigo)
+            .cornerRadius(32)
+        }
         .padding(4)
-        .cornerRadius(32)
     }
 }
 
