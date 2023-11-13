@@ -13,6 +13,7 @@
 		F71E64632ABCE1810049C4C0 /* VerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64622ABCE1810049C4C0 /* VerA.swift */; };
 		F71E64652ABCE18A0049C4C0 /* VerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64642ABCE18A0049C4C0 /* VerB.swift */; };
 		F71E64672ABCE1E80049C4C0 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */; };
+		F7F7467A2B028FD300D5FA43 /* JuegoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F746792B028FD300D5FA43 /* JuegoCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F71E64622ABCE1810049C4C0 /* VerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerA.swift; sourceTree = "<group>"; };
 		F71E64642ABCE18A0049C4C0 /* VerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerB.swift; sourceTree = "<group>"; };
 		F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		F7F746792B028FD300D5FA43 /* JuegoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +76,20 @@
 		F71E64612ABCE1650049C4C0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7F746782B028FC400D5FA43 /* Components */,
 				F71E64622ABCE1810049C4C0 /* VerA.swift */,
 				F71E64642ABCE18A0049C4C0 /* VerB.swift */,
 				F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F7F746782B028FC400D5FA43 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F7F746792B028FD300D5FA43 /* JuegoCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			files = (
 				F71E64672ABCE1E80049C4C0 /* PrincipalView.swift in Sources */,
 				F71E64652ABCE18A0049C4C0 /* VerB.swift in Sources */,
+				F7F7467A2B028FD300D5FA43 /* JuegoCard.swift in Sources */,
 				F71E64632ABCE1810049C4C0 /* VerA.swift in Sources */,
 				F71E64542ABCE0BE0049C4C0 /* MedirJuegosApp.swift in Sources */,
 			);
