@@ -30,9 +30,9 @@ struct JuegoCard: View {
                 .padding(2)
         }//Finaliza la tarjeta
         .frame(width: 320, height: 160)
-        .background(Color("Especiales"))
+        .background(.indigo)
         .padding(4)
-        .cornerRadius(20)
+        .cornerRadius(32)
     }
 }
 
