@@ -23,7 +23,7 @@ struct PrincipalView: View {
                     Image(systemName: "chart.bar.fill")
                     Text("Estadísticas")
                 }
-                VerB().tabItem(){
+                AjustesView().tabItem(){
                     Image(systemName: "gear")
                     Text("Ajustes")
                 }
