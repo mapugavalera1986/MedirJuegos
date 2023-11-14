@@ -15,7 +15,7 @@ struct PrincipalView: View {
                     Image(systemName: "house")
                     Text("Inicio")
                 }
-                VerB().tabItem(){
+                StatsView().tabItem(){
                     Image(systemName: "calendar")
                     Text("Historial")
                 }
