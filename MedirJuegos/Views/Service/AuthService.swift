@@ -71,4 +71,3 @@ class AuthService {
         case userNotAvailable
     }
 }
-
