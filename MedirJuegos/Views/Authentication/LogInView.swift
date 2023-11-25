@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LogInView: View {
+struct LoginView: View {
     @State var email:String=""
     @State var password=""
     var body: some View {
@@ -27,8 +27,8 @@ struct LogInView: View {
                     SecureField("Password",text:$password)
                         .autocapitalization(.none)
                         .modifier(AuthTextfieldModifier())
-                    
                 }
+                
                 //Forgot password button
                 Button {
                     
@@ -40,6 +40,7 @@ struct LogInView: View {
                         .padding(.trailing,28)
                 }
                 .frame(maxWidth: .infinity,alignment: .trailing)
+                
                 //Login Button
                 Button {
                     //aqui va el codigo a ejecutar
@@ -52,6 +53,7 @@ struct LogInView: View {
                         .background(Color(.systemBlue))
                         .cornerRadius(8)
                 }
+                
                 //Divider OR
                 HStack {
                     Rectangle()
@@ -78,7 +80,6 @@ struct LogInView: View {
                 
                 NavigationLink {
                     AddEmailView()
-                        .navigationBarBackButtonHidden(true)
                 } label: {
                     HStack {
                         Text("Dont have an account?")
@@ -87,14 +88,13 @@ struct LogInView: View {
                     .font(.footnote)
                     .foregroundColor(Color(.systemBlue))
                 }
-                
             }//End Stack main
         }//End NavigationStack
     }
 }
 
-struct LogInView_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LogInView()
+        LoginView()
     }
 }

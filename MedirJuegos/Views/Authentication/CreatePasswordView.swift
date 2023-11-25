@@ -1,34 +1,39 @@
 //
-//  CreateUsernameView.swift
+//  CreatePasswordView.swift
 //  MedirJuegos
 //
-//  Created by Mario Augusto Puga Valera on 17/11/23.
+//  Created by Mario Augusto Puga Valera on 21/11/23.
 //
 
 import SwiftUI
 
-struct CreateUserNameView: View {
+struct CreatePasswordView: View {
+    
     @EnvironmentObject var
         registerViewModel:RegisterViewModel
-    //@State var username=""
+    
+    //@State var password=""
     @Environment (\.dismiss) var dismiss
     var body: some View {
         NavigationStack {
             VStack(spacing: 12) {
-                Text("Create Username")
+                Text("Create a Password")
                     .font(.title2)
                     .fontWeight(.semibold)
                     .padding(.top)
-                Text("Pick a Username for your new account")
+                Text("Your password must be at least 6 characters")
                     .font(.footnote)
                     .foregroundColor(.gray)
                     .padding(.horizontal,24)
-                TextField("User name",text: $registerViewModel.username)
+                SecureField("Password",text: $registerViewModel.password)
+                    .autocapitalization(.none)
+                    .modifier(AuthTextfieldModifier())
+                SecureField("Confirm Password",text: $registerViewModel.password)
                     .autocapitalization(.none)
                     .modifier(AuthTextfieldModifier())
                 NavigationLink {
-                    CreatePasswordView()
-                        .navigationBarBackButtonHidden()
+                    CompleteSignUpView()
+                        .navigationBarBackButtonHidden(true)
                 } label: {
                     Text("Next")
                         .font(.subheadline)
@@ -41,6 +46,7 @@ struct CreateUserNameView: View {
                 
                 Spacer()
 
+                
             }//End VStack main
             .toolbar{
                 ToolbarItem(placement:.navigationBarLeading){
@@ -55,3 +61,4 @@ struct CreateUserNameView: View {
         }// end navigationstack
     }
 }
+

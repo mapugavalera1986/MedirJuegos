@@ -9,26 +9,17 @@ import Foundation
 import FirebaseAuth
 import Combine
 
-class RegisterViewModel: ObservableObject {
-    
-    @Published var email: String = ""
-    @Published var username: String = ""
-    @Published var password: String = ""
-    //@Published var isRegistrationComplete: Bool = false
-    
-    private var authService = AuthService.shared
+
+class RegisterViewModel:ObservableObject{
     
     
-    func register() {
-        Task {
-            do {
-                try await authService.createUser(email: email, username: username, password: password)
+    @Published var email:String = ""
+    @Published var password = ""
+    @Published var username = ""
     
-                //isRegistrationComplete = true
-            } catch {
-                print("Error during registration: \(error.localizedDescription)")
-            }
-        }
+    
+    func createUsername() async throws {
+        try await AuthService.shared
+            .createUser(email: email, username: username, password: password)
     }
-    
 }

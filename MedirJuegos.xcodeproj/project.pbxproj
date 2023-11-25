@@ -23,7 +23,6 @@
 		F72C81752B085EA900F4E31D /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F72C81742B085EA900F4E31D /* FirebaseAuthCombine-Community */; };
 		F72C81772B085EA900F4E31D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F72C81762B085EA900F4E31D /* FirebaseCrashlytics */; };
 		F72C81792B085EA900F4E31D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F72C81782B085EA900F4E31D /* FirebaseDatabase */; };
-		F72C817B2B085F9F00F4E31D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C817A2B085F9F00F4E31D /* ContentViewModel.swift */; };
 		F72C81812B08646300F4E31D /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C81802B08646300F4E31D /* ContentViewModel.swift */; };
 		F72C81842B08651E00F4E31D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C81832B08651E00F4E31D /* AuthService.swift */; };
 		F72C81862B0866B700F4E31D /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C81852B0866B700F4E31D /* RegisterViewModel.swift */; };
@@ -32,6 +31,10 @@
 		F72C818E2B08699A00F4E31D /* AuthTextfieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C818D2B08699A00F4E31D /* AuthTextfieldModifier.swift */; };
 		F72C81902B086A9E00F4E31D /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C818F2B086A9E00F4E31D /* AddEmailView.swift */; };
 		F72C81922B086B3700F4E31D /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C81912B086B3700F4E31D /* CreateUsernameView.swift */; };
+		F72C81942B0D90C300F4E31D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C81932B0D90C300F4E31D /* LoginViewModel.swift */; };
+		F72C81962B0D913A00F4E31D /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72C81952B0D913A00F4E31D /* CreatePasswordView.swift */; };
+		F79365012B0D94A5006144B1 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79365002B0D94A5006144B1 /* CompleteSignUpView.swift */; };
+		F79365032B0D96EF006144B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79365022B0D96EF006144B1 /* ContentView.swift */; };
 		F7D01F262B02B04B008720A7 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D01F252B02B04B008720A7 /* InicioView.swift */; };
 		F7D01F282B02B410008720A7 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D01F272B02B410008720A7 /* StatsView.swift */; };
 		F7D01F2A2B02B9D3008720A7 /* AjustesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D01F292B02B9D3008720A7 /* AjustesView.swift */; };
@@ -46,7 +49,6 @@
 		F71E64642ABCE18A0049C4C0 /* VerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerB.swift; sourceTree = "<group>"; };
 		F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
 		F72C81632B085C1500F4E31D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F72C817A2B085F9F00F4E31D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F72C81802B08646300F4E31D /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F72C81832B08651E00F4E31D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		F72C81852B0866B700F4E31D /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
@@ -55,6 +57,10 @@
 		F72C818D2B08699A00F4E31D /* AuthTextfieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextfieldModifier.swift; sourceTree = "<group>"; };
 		F72C818F2B086A9E00F4E31D /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		F72C81912B086B3700F4E31D /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		F72C81932B0D90C300F4E31D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F72C81952B0D913A00F4E31D /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		F79365002B0D94A5006144B1 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
+		F79365022B0D96EF006144B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7D01F252B02B04B008720A7 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
 		F7D01F272B02B410008720A7 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		F7D01F292B02B9D3008720A7 /* AjustesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesView.swift; sourceTree = "<group>"; };
@@ -102,10 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				F72C81632B085C1500F4E31D /* GoogleService-Info.plist */,
-				F71E64612ABCE1650049C4C0 /* Views */,
 				F71E64532ABCE0BE0049C4C0 /* MedirJuegosApp.swift */,
 				F71E64572ABCE0BF0049C4C0 /* Assets.xcassets */,
 				F71E64592ABCE0BF0049C4C0 /* Preview Content */,
+				F71E64612ABCE1650049C4C0 /* Views */,
 			);
 			path = MedirJuegos;
 			sourceTree = "<group>";
@@ -122,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F7D01F292B02B9D3008720A7 /* AjustesView.swift */,
-				F72C817A2B085F9F00F4E31D /* ContentViewModel.swift */,
+				F79365022B0D96EF006144B1 /* ContentView.swift */,
 				F7D01F252B02B04B008720A7 /* InicioView.swift */,
 				F71E64662ABCE1E80049C4C0 /* PrincipalView.swift */,
 				F7D01F272B02B410008720A7 /* StatsView.swift */,
@@ -140,6 +146,7 @@
 			children = (
 				F72C81802B08646300F4E31D /* ContentViewModel.swift */,
 				F72C81852B0866B700F4E31D /* RegisterViewModel.swift */,
+				F72C81932B0D90C300F4E31D /* LoginViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +165,8 @@
 				F72C818F2B086A9E00F4E31D /* AddEmailView.swift */,
 				F72C81892B0868C700F4E31D /* LogInView.swift */,
 				F72C81912B086B3700F4E31D /* CreateUsernameView.swift */,
+				F72C81952B0D913A00F4E31D /* CreatePasswordView.swift */,
+				F79365002B0D94A5006144B1 /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -261,13 +270,16 @@
 				F72C81902B086A9E00F4E31D /* AddEmailView.swift in Sources */,
 				F71E64672ABCE1E80049C4C0 /* PrincipalView.swift in Sources */,
 				F72C81922B086B3700F4E31D /* CreateUsernameView.swift in Sources */,
+				F72C81962B0D913A00F4E31D /* CreatePasswordView.swift in Sources */,
 				F7D01F262B02B04B008720A7 /* InicioView.swift in Sources */,
 				F7D01F282B02B410008720A7 /* StatsView.swift in Sources */,
 				F72C818C2B08694B00F4E31D /* CircleImage.swift in Sources */,
+				F79365012B0D94A5006144B1 /* CompleteSignUpView.swift in Sources */,
+				F79365032B0D96EF006144B1 /* ContentView.swift in Sources */,
 				F71E64652ABCE18A0049C4C0 /* VerB.swift in Sources */,
 				F72C81862B0866B700F4E31D /* RegisterViewModel.swift in Sources */,
 				F72C818E2B08699A00F4E31D /* AuthTextfieldModifier.swift in Sources */,
-				F72C817B2B085F9F00F4E31D /* ContentViewModel.swift in Sources */,
+				F72C81942B0D90C300F4E31D /* LoginViewModel.swift in Sources */,
 				F72C818A2B0868C700F4E31D /* LogInView.swift in Sources */,
 				F72C81812B08646300F4E31D /* ContentViewModel.swift in Sources */,
 				F7F7467A2B028FD300D5FA43 /* JuegoCard.swift in Sources */,
